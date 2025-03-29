@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker Session RSVP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="hero">
+        <img src="RGPVLOGO.jpeg" alt="RGPV Logo" class="logo">
+        <h1>🎤 Finding the Correct Balance: Between Urge to Earn vs. Urge to Learn</h1>
+        <p>Join us for an insightful session on balancing knowledge and financial goals.</p>
+    </header>
+    
+    <section class="registration">
+        <h2>📝 Register Now</h2>
+        <form id="rsvpForm">
+           
+            <input type="text" id="name" placeholder="Enter your full name" required>
+
+            
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+            
+            <input type="text" id="college" placeholder="Enter your college name" required>
+
+            
+            <select id="year" required>
+                <option value="">Select Year</option>
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+                <option value="4th Year">4th Year</option>
+            </select>
+
+            
+            <textarea id="expectations" placeholder="Write your expectations..." required></textarea>
+
+            <button type="submit">Register</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+    
+    <section class="checkin-checkout">
+        <h2>✅ Check-in / Check-out</h2>
+        <button id="checkinBtn">Check-in</button>
+        <button id="checkoutBtn">Check-out</button>
+        <p id="statusMessage"></p>
+    </section>
+
+    <footer>
+        <p>📍 Venue: Auditorium, RGPV | ⏳ Date: 10th April 2025</p>
+    </footer>
+</body>
+</html>
